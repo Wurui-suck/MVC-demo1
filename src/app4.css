@@ -1,0 +1,16 @@
+#App4>#change{
+    height: 30vh;
+    width: 30vh;
+    border: 1px red solid;
+    margin: 10vh;
+    border-radius: 50%;
+}
+@keyframes changeColor{
+    from{background-color:red}
+    to{
+        background-color: blue;
+    }
+}
+#App4>#change.active{
+   animation: changeColor 2s alternate infinite
+}
